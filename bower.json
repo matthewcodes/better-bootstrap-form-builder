@@ -1,0 +1,22 @@
+{
+  "name": "better-bootstrap-form-builder",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matthewcodes/better-bootstrap-form-builder",
+  "authors": [
+    "Matthew Wilson <matt@mattcodes.co.uk>"
+  ],
+  "description": "A better bootstrap form builder",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dragula.js": "~1.6.1",
+    "bootstrap": "~3.3.4"
+  }
+}
