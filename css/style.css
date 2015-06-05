@@ -10,3 +10,9 @@
   padding-top:20px;
   padding-bottom:20px;
 }
+
+.invisibutton {
+    background:none;
+    border:none;
+    box-shadow:none;
+}

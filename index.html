@@ -65,13 +65,18 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/dragula.js/dist/dragula.min.js"></script>
     <script>
-      dragula([document.querySelector('#left'), document.querySelector('#right')], {
+      var drake = dragula([document.querySelector('#left'), document.querySelector('#right')], {
         accepts: function (el, target, source, sibling) {
 
           return (target.id == "left" && source.id == "right");
         },
+        moves: function(el, container, handle) {
+          debugger;
+          return true;
+        },
         copy:true
       });
+
     </script>
   </body>
 </html>
